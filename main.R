@@ -29,3 +29,5 @@ print( round( inv %*% cm$get(), 7 ) )
 
 # check, shall produce unit 3x3 matrix
 print( round( cm$get() %*% inv, 7 ) )
+
+print("Done")
